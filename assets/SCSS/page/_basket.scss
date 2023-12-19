@@ -1,0 +1,76 @@
+#head{
+    background-color: black;
+width: 100%;
+position: relative;
+    .container {
+        .navbar {
+            ul {
+                gap: 3rem;
+                li {
+                    a {
+                        transition: 1s;
+                        color: #fff;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .logoshare {
+            i {
+                color: #fff;
+                transition: 1s;
+
+                &:hover {
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+#proSec{
+    .container {
+        #product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+
+            .box {
+                width: 350px;
+
+                img {
+                    width: 100%;
+
+                }
+
+                button {
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    border: 1px solid red;
+                    background-color: #fff;
+                    color: red;
+                    border-radius: 10px;
+                    padding: 8px;
+                    transition: 1s;
+
+                    &:hover {
+                        background-color: red;
+                        color: #fff;
+                    }
+
+                }
+            }
+        }
+    }
+}
